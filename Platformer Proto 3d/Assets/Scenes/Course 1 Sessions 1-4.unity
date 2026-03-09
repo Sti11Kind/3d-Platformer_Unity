@@ -46238,7 +46238,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 999292741061141260, guid: 2990722572487fc499c55dae4c7f6f99, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.98
+      value: -12.01
       objectReference: {fileID: 0}
     - target: {fileID: 999292741061141260, guid: 2990722572487fc499c55dae4c7f6f99, type: 3}
       propertyPath: m_LocalPosition.y
@@ -59106,7 +59106,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1684486807
 Transform:
   m_ObjectHideFlags: 0
@@ -61951,7 +61951,7 @@ MonoBehaviour:
   enemyStats:
     shouldJump: 1
     jumpVelocity: 500
-    explodeDist: 0
+    explodeDist: 3
   enemyExplosionParticles: {fileID: 4912132913345027125, guid: efc9b2d72ccad9047a7b8d97a0bbe96e, type: 3}
   playerTransform: {fileID: 543450652763914464}
 --- !u!65 &1779896510
@@ -68180,7 +68180,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1299055526086228024
 Transform:
   m_ObjectHideFlags: 0
