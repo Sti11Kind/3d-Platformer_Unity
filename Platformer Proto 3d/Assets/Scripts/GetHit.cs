@@ -60,9 +60,11 @@ public class GetHit : MonoBehaviour
     private void TakeDamage()
     {
         hurt = true;
+        playerMovementScript.playerStats.health--;
         playerMovementScript.playerStats.canMove = false;
         playerMovementScript.soundManager.PlayHitSound();
         StartCoroutine("Recover");
+        Debug.Log("GOT HIT! Health: " + playerMovementScript.playerStats.health);
     }
     private IEnumerator Recover()
     {
